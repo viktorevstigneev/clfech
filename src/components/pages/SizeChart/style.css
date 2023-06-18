@@ -1,0 +1,62 @@
+.size_home__main {
+	background: url('../../../img/bgFencing.png') 50% no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+	border-top: 1px solid transparent;
+	padding-bottom: 80px;
+}
+
+h2{
+	font-size: 50px;
+}
+
+h1{
+	font-size: 60px;
+} 
+
+.size_home__title {
+	text-align: center;
+	color: #fff;
+	margin-top: 110px;
+	font-family: sans-serif;
+}
+
+.size_home_caption {
+	text-align: center;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 30px;
+	margin: 20px auto;
+	max-width: 90%;
+}
+.home_caption_cost {
+	text-align: center;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 30px;
+	margin: 20px auto;
+	max-width: 90%;
+	text-align: justify;
+}
+.costum{
+	float: right;
+	margin-left:20px;
+	margin-right: 80px;
+	width: 700px;
+	height: 1000px;
+}
+.perchi{
+	float: left;
+	margin-left:100px;
+	margin-right: 20px;
+	width: 700px;
+	height: 700px;
+}
+.maska{
+	float: right;
+	margin-left:20px;
+	margin-right: 80px;
+	width: 700px;
+	height: 750px;
+}

@@ -1,0 +1,60 @@
+.profile {
+	/* background: url('../../../img/main_bg.png') 50% no-repeat; */
+	/* background-size: cover; */
+	background: #141414;
+	margin-top: 100px;
+}
+
+.profile__container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.profile__title {
+	font-family: Pompiere;
+	text-align: center;
+	color: white;
+}
+
+.profile__wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.profile__cred {
+	color: white;
+}
+
+.profile__avatar {
+	width: 150px;
+	height: 150px;
+}
+
+.profile__bottom{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.bottom__head{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.bottom__title{
+	text-transform: uppercase;
+	font-family: Pompiere;
+	color: white;
+}
+
+.bottom__order{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	font-family: Pompiere;
+	font-size: 24px;
+
+	border: 1px solid white;
+	padding: 0 10px;
+}

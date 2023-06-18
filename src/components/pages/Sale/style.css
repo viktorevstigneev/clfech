@@ -1,0 +1,25 @@
+.sale_home__main {
+	background: url('../../../img/bg.jpg') 50% no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+	border-top: 1px solid transparent;
+	padding-bottom: 80px;
+}
+
+.sale_home__title {
+	text-align: center;
+	color: #fff;
+	margin-top: 110px;
+	font-family: sans-serif;
+	font-size: 60px;
+}
+
+.sale_home_caption {
+	text-align: center;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 30px;
+	margin: 20px auto;
+	max-width: 90%;
+}

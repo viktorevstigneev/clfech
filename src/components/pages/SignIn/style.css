@@ -1,0 +1,109 @@
+.auth {
+	background: linear-gradient(#000000a2, #00000067), url('../../../img/signin.jpg') 50% no-repeat;
+	background-size: cover;
+	/* background: black; */
+	width: 100%;
+	/* height: 100%; */
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid #000;
+}
+
+.auth__container {
+	background: rgba(0, 0, 0, 0.575);
+	padding: 30px;
+	border-radius: 30px;
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.auth__title {
+	text-align: center;
+	font-size: 28px;
+	margin-top: 20px;
+	color: #fff8ff;
+	font-family: sans-serif;
+}
+
+.auth__block {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	/* justify-content: space-around; */
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.auth__form {
+	padding: 20px;
+	width: 100%;
+}
+
+.auth__label {
+	margin-top: 10px;
+	display: block;
+	text-transform: uppercase;
+
+	color: #fff8ff;
+	font-family: sans-serif;
+	font-size: 22px;
+}
+
+.auth__input {
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #d1a379;
+
+	background: transparent;
+	font-size: 22px;
+
+	color: #fff8ff;
+	font-family: sans-serif;
+}
+
+.auth__button {
+	background: #00000000;
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 22px;
+	border: none;
+	box-shadow: 4px 6px 4px 4px rgba(204, 0, 255, 0.473);
+	transition: 1s;
+	cursor: pointer;
+	border: 1px solid #8c06b4;
+}
+
+.auth__button:hover {
+	background: #6214f3;
+	color: #fff8ff;
+	box-shadow: none;
+}
+
+.auth__link {
+	display: block;
+	color: #ff009d;
+	text-decoration: none;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.auth__link:hover {
+	color: #6214f3;
+}
+
+.auth__img {
+	width: 400px;
+	height: 450px;
+	position: absolute;
+	right: 150px;
+	top: 0;
+	top: -100px;
+	transform: rotate(45deg);
+}

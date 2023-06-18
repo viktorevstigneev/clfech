@@ -1,0 +1,80 @@
+.contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.514)),url('../../../img/header_bg.png') 50% no-repeat;
+	background-size: cover;
+	height: 800px;
+    border-top: 1px solid #000;
+}
+
+.music__title {
+	margin-top: 10%;
+	text-align: center;
+	color: aliceblue;
+}
+
+.music_container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.music__input {
+	border: 1px solid #ffffff;
+	width: 50%;
+	padding: 10px;
+	background: white;
+	margin: 5px;
+	margin-left: 0;
+	color: black;
+}
+
+.music__input::placeholder {
+	color: black;
+}
+
+.music__message{
+
+	border: 1px solid #ffffff;
+	width: 50%;
+	padding: 10px;
+	background: white;
+	margin: 5px;
+	margin-left: 0;
+	color: black;
+    resize: none;
+    height: 120px;
+}
+
+.music__message::placeholder {
+	color: black;
+}
+
+
+.music__label {
+	display: block;
+	margin-top: 10px;
+	position: relative;
+	color: #fff;
+}
+
+.music__label::after {
+	content: '*';
+	margin-left: 5px;
+	font-size: 25px;
+	color: red;
+}
+
+
+.music__btn {
+	background: #d1a379;
+	display: block;
+	padding: 15px 50px;
+	color: #fff;
+	font-size: 28px;
+	border: none;
+	box-shadow: 4px 8px 0px 0px rgba(122, 122, 122, 0.473);
+	transition: 1s;
+	cursor: pointer;
+}
+.music__btn:hover {
+	background: #b97d45;
+}
+
